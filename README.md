@@ -1,7 +1,7 @@
 # newsapp-django
 This is a simple django newsapp that demonstrates how to utilise the News API (https://newsapi.org/).
 
-### Getting Started:
+### Getting Started
 You will need the following dependencies to run this app.
 1. **Python installed.** https://docs.djangoproject.com/en/3.1/topics/install/#install-python and https://www.python.org/downloads/ I have tested it with Python 3.9, though you should be able to run it with an older version of Python.
 2. **Django installed.** You can install that from the Django project https://docs.djangoproject.com/en/3.1/topics/install/#installing-official-release
@@ -22,3 +22,9 @@ pip install newsapi-python
 run `python manage.py runserver`
 ```
 Open this link in your preferred web browser (http://127.0.0.1:8000/) 
+
+### Notes:
+Make sure you update the API key in the views.py file which is located in the newsapp-django>financialnewsapp>views.py folder. You will need to go to (https://newsapi.org) to create a free API key (which is free for a month).
+
+As it will give you this error message:
+`newsapi.newsapi_exception.NewsAPIException: {'status': 'error', 'code': 'apiKeyInvalid', 'message': 'Your API key is invalid or incorrect. Check your key, or go to https://newsapi.org to create a free API key.'}`
