@@ -7,8 +7,8 @@ You will need the following dependencies to run this app.
 2. **Django installed.** You can install that from the Django project https://docs.djangoproject.com/en/3.1/topics/install/#installing-official-release
 
 ### Clone this into your environment
-1. Clone this repo `git clone <https://github.com/vulongtran/newsapp-django>`.
-2. Change directory to this repo using `cd `.
+1. Clone this repo `git clone https://github.com/vulongtran/newsapp-django.git`.
+2. Change directory to this repo using `cd newsapp-django`.
 3. Install the newsapi module which is a dependency for this to work. `pip install newsapi-python`.
 4. Run the django application, by using this command `python manage.py runserver`.
 5. Open this link in your preferred web browser (http://127.0.0.1:8000/) 
