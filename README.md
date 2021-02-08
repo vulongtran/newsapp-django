@@ -5,6 +5,7 @@ This is a simple django newsapp that demonstrates how to utilise the News API (h
 You will need the following dependencies to run this app.
 1. **Python installed.** https://docs.djangoproject.com/en/3.1/topics/install/#install-python and https://www.python.org/downloads/ I have tested it with Python 3.9, though you should be able to run it with an older version of Python.
 2. **Django installed.** You can install that from the Django project https://docs.djangoproject.com/en/3.1/topics/install/#installing-official-release
+3. **News API API key** You will need to sign up for a free API key from News API (https://newsapi.org) (which is free for a month).
 
 ### Clone this into your working environment:
 1. Clone this repo `git clone https://github.com/vulongtran/newsapp-django.git`.
