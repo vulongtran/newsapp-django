@@ -11,8 +11,9 @@ You will need the following dependencies to run this app.
 1. Clone this repo `git clone https://github.com/vulongtran/newsapp-django.git`.
 2. Change directory to this repo using `cd newsapp-django`.
 3. Install the newsapi module which is a dependency for this to work. `pip install newsapi-python`.
-4. Run the django application, by using this command `python manage.py runserver`.
-5. Open this link in your preferred web browser (http://127.0.0.1:8000/) 
+4. Add your News API key to this line `newsapi = NewsApiClient(api_key='NEWSAPI_API_KEY')` to the `views.py` file which is located in the `newsapp-django>financialnewsapp>views.py` folder.
+5. Run the django application, by using this command `python manage.py runserver`.
+6. Open this link in your preferred web browser (http://127.0.0.1:8000/).
  
 ### Bash commands for you to download and run this:
 To install this example Django application, run the following commands in your preferred Terminal, Powershell or Git Bash:
@@ -27,5 +28,5 @@ Open this link in your preferred web browser (http://127.0.0.1:8000/)
 ### Notes:
 Make sure you update the API key in the views.py file which is located in the newsapp-django>financialnewsapp>views.py folder. You will need to go to (https://newsapi.org) to create a free API key (which is free for a month).
 
-As it will give you this error message:
-`newsapi.newsapi_exception.NewsAPIException: {'status': 'error', 'code': 'apiKeyInvalid', 'message': 'Your API key is invalid or incorrect. Check your key, or go to https://newsapi.org to create a free API key.'}`
+As it will give you this error message if you do not have added in the API key or need a valid API key:
+`newsapi.newsapi_exception.NewsAPIException: {'status': 'error', 'code': 'apiKeyInvalid', 'message': 'Your API key is invalid or incorrect. Check your key, or go to https://newsapi.org to create a free API key.'}`.

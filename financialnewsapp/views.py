@@ -3,7 +3,7 @@ from django.shortcuts import render
 from newsapi import NewsApiClient
 import json
 # Initializing this django app with a https://newsapi.org/ api key which newsapi offers for one month free to test with. 
-newsapi = NewsApiClient(api_key='APIkeyhere')
+newsapi = NewsApiClient(api_key='NEWSAPI_API_KEY')
 all_articles = newsapi.get_everything(q='bitcoin',sources='yahoo,the-verge,cnbc,bbc-news',
 language='en',sort_by='relevancy')
 
