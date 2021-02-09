@@ -25,6 +25,8 @@ run `python manage.py runserver`
 ```
 Open this link in your preferred web browser (http://127.0.0.1:8000/) 
 
+![Example output](<https://github.com/vulongtran/newsapp-django/blob/main/images/example.png>)
+
 ### Notes:
 Make sure you update the API key in the views.py file which is located in the newsapp-django>financialnewsapp>views.py folder. You will need to go to (https://newsapi.org) to create a free API key (which is free for a month).
 
